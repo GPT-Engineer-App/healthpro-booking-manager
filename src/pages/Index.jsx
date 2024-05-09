@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Input, Button, Text, VStack, IconButton, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Select, Calendar, Footer } from "@chakra-ui/react";
-import { FaSearch, FaUserMd, FaCalendarAlt, FaCog, FaSignOutAlt } from "react-icons/fa";
+import { FaSearch, FaUserMd, FaCalendarAlt, FaCog, FaSignOutAlt, FaHome } from "react-icons/fa";
 
 const Index = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
