@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Input, Button, Text, VStack, IconButton, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Select, Calendar, Footer } from "@chakra-ui/react";
+import { Box, Container, Flex, Input, Button, Text, VStack, IconButton, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, Select, Footer } from "@chakra-ui/react";
 import { FaSearch, FaUserMd, FaCalendarAlt, FaCog, FaSignOutAlt, FaHome } from "react-icons/fa";
 
 const Index = () => {
@@ -55,7 +55,7 @@ const Index = () => {
           </Modal>
         </VStack>
 
-        <Calendar mt={10} />
+        <Text mt={10} fontSize="lg">Calendar Placeholder</Text>
 
         <Footer bg="blue.800" color="gray.100" p={4} mt={10}>
           <Flex justifyContent="space-between">
